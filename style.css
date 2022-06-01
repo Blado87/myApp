@@ -1,0 +1,39 @@
+.bodyPersonalizado{
+    padding: 10px;
+}
+.containerAlerta{
+    height: 70px;
+}
+.containerPalabraIngles{
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+button{
+    margin-top: 10px;
+}
+.containerBtnSiguiente{
+    margin-top: 500px;
+}
+.txtIngles{
+    text-decoration-line: underline;
+    text-decoration-color: #fd7e14;
+}
+.containerAyuda{
+    margin-top: 20px;
+}
+.tituloMes{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.containerPrincipal{
+    margin-right: 0px;
+    padding-right: 0px;
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+.btnPractica{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}

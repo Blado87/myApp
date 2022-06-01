@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Practica</title>
+    <link
+      href="/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bodyPersonalizado">
+    <div class="container-md">
+      <!-- container alerta -->
+      <div class="containerAlerta">
+        <div class="alert alert-success" role="alert">Excelente</div>
+      </div>
+      <!-- Container texto -->
+      <div class="containerPalabraIngles">
+        <p
+          class="text-center text-capitalize fs-1 fw-bold text-orange txtIngles"
+        >
+          parents
+        </p>
+      </div>
+      <!-- container respuesta de usuario -->
+      <div>
+        <div class="mb-3">
+          <label for="respuestaUsuario" class="form-label fs-6"
+            >Tradusca la palabra:</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="respuestaUsuario"
+            aria-describedby=""
+          />
+          <div class="d-grid gap-2">
+            <button type="submit" class="btn btn-primary">Validar</button>
+          </div>
+        </div>
+      </div>
+      <!-- container boton siguiente -->
+      <div class="d-grid gap-2 containerBtnSiguiente">
+        <button type="submit" class="btn btn-outline-primary disabled">
+          Siguiente
+        </button>
+      </div>
+    </div>
+    <script
+      src="/bootstrap/js/bootstrap.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
